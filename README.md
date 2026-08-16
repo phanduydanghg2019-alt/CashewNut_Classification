@@ -49,10 +49,11 @@ Mô hình Custom CNN bao gồm 4 khối trích xuất đặc trưng nối tiếp
 
 ## 🚀 Hướng dẫn sử dụng
 
-**Bước 1: Tải mã nguồn về máy (Clone Repository)**
+**Bước 1: Tải mã nguồn về máy (Clone Repository)**  
 Mở Terminal (hoặc Command Prompt/Git Bash) và chạy dòng lệnh sau để tải toàn bộ dự án về máy:
+
 ```bash
-git clone [https://github.com/phanduydanghg2019-alt/CashewNut_Classification.git](https://github.com/phanduydanghg2019-alt/CashewNut_Classification.git)
+git clone https://github.com/phanduydanghg2019-alt/CashewNut_Classification.git
 
 
 **Bước 2: Chuẩn bị và tổ chức bộ dữ liệu**
