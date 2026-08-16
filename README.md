@@ -1,6 +1,6 @@
 # 🥜 Phân loại chất lượng Hạt Điều bằng mạng Custom CNN (MATLAB)
 
-Dự án này xây dựng một mô hình Mạng nơ-ron tích chập (CNN) từ đầu (Train from scratch) bằng ngôn ngữ MATLAB để tự động phân loại chất lượng hạt điều dựa trên hình ảnh. Dự án ứng dụng các hàm huấn luyện học sâu hiện đại nhất của MATLAB như `trainnet` và `minibatchpredict`.
+Dự án này xây dựng một mô hình Mạng nơ-ron tích chập (CNN) từ đầu bằng ngôn ngữ MATLAB để tự động phân loại chất lượng hạt điều dựa trên hình ảnh. Dự án ứng dụng các hàm huấn luyện học sâu hiện đại nhất của MATLAB như `trainnet` và `minibatchpredict`.
 
 ## 📑 Mục lục
 - [Giới thiệu](#-giới-thiệu)
