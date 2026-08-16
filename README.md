@@ -55,8 +55,8 @@ Mở Terminal (hoặc Command Prompt/Git Bash) và chạy dòng lệnh sau để
 ```bash
 git clone https://github.com/phanduydanghg2019-alt/CashewNut_Classification.git
 
+Bước 2: Chuẩn bị và tổ chức bộ dữ liệu
 
-**Bước 2: Chuẩn bị và tổ chức bộ dữ liệu**
 Mặc định trong code, biến dataRoot đang trỏ tới thư mục D:\Tai_Xuong\Dataset_V1. Bạn có thể tạo đúng đường dẫn này trên máy, hoặc chủ động đổi lại đường dẫn trong file code để phù hợp với vị trí lưu data của bạn.
 
 Hãy đảm bảo dữ liệu hình ảnh được sắp xếp theo đúng cấu trúc cây thư mục sau để hàm imageDatastore đọc đúng nhãn:
@@ -72,7 +72,8 @@ Dataset_V1/
     ├── Pieces/
     ├── Split/
     └── Wholes/
-**Bước 3: Khởi chạy quy trình huấn luyện**
+
+Bước 3: Khởi chạy quy trình huấn luyện
 
 Mở phần mềm MATLAB.
 
@@ -80,4 +81,4 @@ Mở file script huấn luyện chính (file .m) của dự án.
 
 Nhấn nút Run (hoặc phím F5) trên thanh công cụ để bắt đầu quá trình học.
 
-Hệ thống sẽ tự động chạy, xuất các thông số ra Command Window. Khi kết thúc, mô hình tốt nhất (file .mat) và ảnh chụp Ma trận nhầm lẫn (Confusion Matrix) sẽ tự động được lưu vào thư mục xuất kết quả (exportFolder).
+Hệ thống sẽ tự động chạy và xuất các thông số ra Command Window. Khi kết thúc, mô hình tốt nhất (file .mat) và ảnh chụp Ma trận nhầm lẫn (Confusion Matrix) sẽ tự động được lưu vào thư mục xuất kết quả (exportFolder).
