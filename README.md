@@ -54,6 +54,7 @@ Mở Terminal (hoặc Command Prompt/Git Bash) và chạy dòng lệnh sau để
 ```bash
 git clone [https://github.com/phanduydanghg2019-alt/CashewNut_Classification.git](https://github.com/phanduydanghg2019-alt/CashewNut_Classification.git)
 
+
 **Bước 2: Chuẩn bị và tổ chức bộ dữ liệu**
 Mặc định trong code, biến dataRoot đang trỏ tới thư mục D:\Tai_Xuong\Dataset_V1. Bạn có thể tạo đúng đường dẫn này trên máy, hoặc chủ động đổi lại đường dẫn trong file code để phù hợp với vị trí lưu data của bạn.
 
