@@ -60,7 +60,7 @@ Bước 2: Chuẩn bị và tổ chức bộ dữ liệu
 Mặc định trong code, biến dataRoot đang trỏ tới thư mục D:\Tai_Xuong\Dataset_V1. Bạn có thể tạo đúng đường dẫn này trên máy, hoặc chủ động đổi lại đường dẫn trong file code để phù hợp với vị trí lưu data của bạn.
 
 Hãy đảm bảo dữ liệu hình ảnh được sắp xếp theo đúng cấu trúc cây thư mục sau để hàm imageDatastore đọc đúng nhãn:
-
+```
 Dataset_V1/
 ├── train/
 │   ├── Butts/
@@ -72,7 +72,7 @@ Dataset_V1/
     ├── Pieces/
     ├── Split/
     └── Wholes/
-
+```
 Bước 3: Khởi chạy quy trình huấn luyện
 
 Mở phần mềm MATLAB.
